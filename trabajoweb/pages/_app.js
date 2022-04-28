@@ -1,7 +1,4 @@
-import '../styles/globals.css'
+const express =require("express");
+const app= express();
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
-
-export default MyApp
+app.get()
